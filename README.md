@@ -37,7 +37,7 @@ All in [`analysis.sql`](analysis.sql):
 ## Run it yourself
 
 ```bash
-git clone https://github.com/98bruno89-eng/steam-player-tracker.git
+git clone https://github.com/bruno-a-medina/steam-player-tracker.git
 cd steam-player-tracker
 pip install -r requirements.txt
 echo "DATABASE_URL=postgresql://user:password@host/dbname" > .env
