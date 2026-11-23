@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS player_counts (
     id           SERIAL PRIMARY KEY,
     app_id       INTEGER NOT NULL,
     player_count INTEGER NOT NULL,
-    timestamp    TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    timestamp    TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
 CREATE INDEX IF NOT EXISTS idx_player_counts_app_time
